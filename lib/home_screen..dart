@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
     }
 
     final url = Uri.parse(
-        'https://pharmacy-backend-1xeuluooj-komal-anums-projects.vercel.app/api/user/$userId');
+        'https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/user/$userId');
 
     try {
       final response = await http.get(
@@ -161,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         }
 
                         final url = Uri.parse(
-                            'https://pharmacy-backend-6zk9f2a77-komal-anums-projects.vercel.app/api/rating');
+                            'https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/rating');
 
                         try {
                           final response = await http.post(

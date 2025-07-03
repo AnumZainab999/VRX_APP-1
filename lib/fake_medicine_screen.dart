@@ -20,7 +20,7 @@ class _FakeMedicineScreenState extends State<FakeMedicineScreen> {
     _controller = VideoPlayerController.asset('assets/vrx.mp4')
       ..initialize().then((_) {
         setState(() {
-          // _controller!.play();
+          _controller!.play();
         });
       });
   }

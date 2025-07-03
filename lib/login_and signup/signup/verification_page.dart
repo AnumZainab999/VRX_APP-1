@@ -32,7 +32,7 @@ class _VerificationPageState extends State<VerificationPage> {
 
     setState(() => isLoading = true);
 
-    final url = Uri.parse("https://pharmacy-backend-5zrp03yuu-komal-anums-projects.vercel.app/api/verify-otp");
+    final url = Uri.parse("https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/verify-otp");
 
     try {
       final response = await http.post(

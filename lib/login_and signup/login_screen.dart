@@ -48,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
   setState(() => _isLoading = true);
 
   final url = Uri.parse(
-      'https://pharmacy-backend-5zrp03yuu-komal-anums-projects.vercel.app/api/login');
+      'https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/login');
 
   try {
     final response = await http.post(

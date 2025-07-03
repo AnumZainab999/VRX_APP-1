@@ -27,7 +27,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
   Future<void> _fetchUserProfile() async {
     final url = Uri.parse(
-        'https://pharmacy-backend-5zrp03yuu-komal-anums-projects.vercel.app/api/user/${widget.userId}');
+        'https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/user/${widget.userId}');
 
     try {
       final response = await http.get(
@@ -71,7 +71,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Future<void> _saveRecord() async {
     if (_formKey.currentState!.validate()) {
       final url = Uri.parse(
-          'https://pharmacy-backend-5zrp03yuu-komal-anums-projects.vercel.app/api/update-user/${widget.userId}');
+          'https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/update-user/${widget.userId}');
       try {
         final response = await http.put(
           url,

@@ -34,7 +34,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
     setState(() => isLoading = true);
 
     final url = Uri.parse(
-      "https://pharmacy-backend-5zrp03yuu-komal-anums-projects.vercel.app/api/forgot-password",
+      "https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/forgot-password",
     );
 
     try {
@@ -99,7 +99,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                     setModalState(() => isModalLoading = true);
 
                     final resetUrl = Uri.parse(
-                      "https://pharmacy-backend-5zrp03yuu-komal-anums-projects.vercel.app/api/reset-password",
+                      "https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/reset-password",
                     );
 
                     try {

@@ -72,7 +72,7 @@ class _SignupPageState extends State<SignupPage> {
     setState(() => isLoading = true);
 
     final url = Uri.parse(
-      "https://pharmacy-backend-5zrp03yuu-komal-anums-projects.vercel.app/api/signup",
+      "https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/signup",
     );
 
     try {

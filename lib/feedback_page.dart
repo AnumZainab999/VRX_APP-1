@@ -47,7 +47,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
     };
 
     final url = Uri.parse(
-        'https://pharmacy-backend-plb6d36wt-komal-anums-projects.vercel.app/api/feedback');
+        'https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/feedback');
 
     setState(() => _isSubmitting = true);
 
@@ -77,7 +77,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
 
   void _fetchFeedback() async {
     final url = Uri.parse(
-        'https://pharmacy-backend-plb6d36wt-komal-anums-projects.vercel.app/api/feedback/${widget.userId}');
+        'https://pharmacy-backend-gdmqvos56-komal-anums-projects.vercel.app/api/feedback/${widget.userId}');
 
     try {
       final response = await http.get(
