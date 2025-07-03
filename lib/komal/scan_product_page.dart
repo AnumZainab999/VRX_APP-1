@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 import 'dart:io';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:vrx_app/chat_screen.dart';
-import 'error_dialog.dart'; // Import the ErrorDialog class
+import '../error_dialog.dart'; // Import the ErrorDialog class
 
 // Temporary SSL bypass for debugging
 class MyHttpOverrides extends HttpOverrides {
